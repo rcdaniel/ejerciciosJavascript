@@ -2,9 +2,9 @@
 ## Realizados por Daniel Ramírez Concepción.
 
 ### Listado de ejercicios
-Nombre | Enlace
------------- | -------------
-Dados | [Preview ejercicio dados (primer dia)](https://rcdaniel.github.io/ejerciciosJavascript/dados/build/)
+Nombre | Dia | Enlace
+------------ | ------------- | -------------
+Dados | 1 | [Preview Ejercicio Dados](https://rcdaniel.github.io/ejerciciosJavascript/dados/build/)
 
 
 ### Tener en cuenta:
