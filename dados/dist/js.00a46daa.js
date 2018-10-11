@@ -106,11 +106,11 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   return newRequire;
 })({"js/index.js":[function(require,module,exports) {
 /*** index.js ***/
-var dados = document.getElementsByClassName("calcularResultado");
+var dados = document.getElementsByClassName('calcularResultado');
 
 var _loop = function _loop(index) {
   dados[index].onclick = function calcularValor() {
-    var dado = document.getElementById("#" + String(index + 1));
+    var dado = document.getElementById('#' + String(index + 1));
     var numero = Math.floor(Math.random() * 6 + 1);
     dado.innerHTML = numero;
   };
@@ -146,7 +146,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36607" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35851" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
