@@ -1,0 +1,49 @@
+/*** index.pcss ***/
+
+.tabla {
+    
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.carton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.listaNumeros {
+    display: flex;
+    align-content: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #519ef7;
+    
+}
+
+.listaNumeros{
+    & div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        padding: 8px;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 5%;
+        margin: 5px;
+    }
+}
+
+.titulo {
+    font-size:40px;
+}
+
+.numeroTachado {
+    text-decoration: line-through;
+    background-color: #d6573e!important;
+}
