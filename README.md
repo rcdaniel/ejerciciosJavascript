@@ -7,7 +7,8 @@
 ### Listado de ejercicios
 Nombre | Dia | Enlace
 ------------ | ------------- | -------------
-Dados | 1 | [Preview Ejercicio Dados](https://rcdaniel.github.io/ejerciciosJavascript/dados/build/)
+Dados | 1 | [Ejercicio Dados](https://rcdaniel.github.io/ejerciciosJavascript/dados/build/)
+Bingo | 2 & 3 | [Ejercicio Bingo](https://rcdaniel.github.io/ejerciciosJavascript/bingo/build/)
 
 
 ### Tener en cuenta:
